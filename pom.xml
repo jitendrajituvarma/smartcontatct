@@ -70,7 +70,7 @@
 	</dependencies>
 
 	<build>
-	
+	<finalName>smart-contatact-jenkin</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
