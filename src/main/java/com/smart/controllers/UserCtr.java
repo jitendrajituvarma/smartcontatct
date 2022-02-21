@@ -15,6 +15,7 @@ public class UserCtr {
 
 	@GetMapping("/index/{email}")
 	public User getUser(@PathVariable("email") String email) {
+		System.out.println("HELLO wordlg");
 		return repository.getUserByUserName(email);
 	}
 }
