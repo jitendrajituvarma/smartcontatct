@@ -23,7 +23,6 @@ public class ForgetController {
 		int otp=random.nextInt(9999);
 		System.out.println("OTP"+otp);
 		//write the code to email for otp
-		//commented
 		return "veryfryOTP";
 	}
 }
