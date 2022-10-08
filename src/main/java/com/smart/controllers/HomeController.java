@@ -26,6 +26,8 @@ public class HomeController {
     @Autowired
     BCryptPasswordEncoder bCryptPasswordEncoder;
 	
+    
+    
 	@GetMapping("/home")
 	public String homePage(Model model) {
 		model.addAttribute("title"+"smart contact management");
