@@ -170,5 +170,10 @@ public class UserController {
 	httpSession.setAttribute("message", new Message("contact deleted successful !! ","success"));
 	return "redirect:/user/show_contact/0";
 	}
+	
+	@GetMapping("/contact/{id}")
+	public String hi() {
+		return "welocom";
+	}
 
 }
