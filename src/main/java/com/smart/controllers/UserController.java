@@ -174,6 +174,7 @@ public class UserController {
 	@GetMapping("/contact/{id}")
 	public String hi() {
 		System.out.println("hello friends");
+		System.out.println("hello friends");
 		return "welocom";
 	}
 
